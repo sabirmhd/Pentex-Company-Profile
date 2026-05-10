@@ -58,7 +58,7 @@ const fadeUpVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.65, ease: [0.22, 1, 0.36, 1] },
+    transition: { duration: 0.45, ease: [0.22, 1, 0.36, 1] },
   },
 };
 
@@ -87,7 +87,7 @@ export default function About() {
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.25 }}
+        viewport={{ once: true, amount: 0.1 }}
       >
         <div className="relative">
           <motion.div

@@ -51,7 +51,7 @@ const fadeUpVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.65, ease: [0.22, 1, 0.36, 1] },
+    transition: { duration: 0.45, ease: [0.22, 1, 0.36, 1] },
   },
 };
 
@@ -210,14 +210,6 @@ export default function WhyChooseUs() {
               );
             })}
           </motion.div>
-
-          {/* <motion.div
-            variants={fadeUpVariants}
-            className="mt-8 inline-flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.08] px-5 py-4 text-sm font-semibold text-slate-200 backdrop-blur"
-          >
-            <HiOutlineSparkles className="text-xl text-blue-300" aria-hidden="true" />
-            Quality, reliability, and customer satisfaction guide every engagement.
-          </motion.div> */}
         </div>
       </motion.div>
     </section>

@@ -102,7 +102,7 @@ const fadeUpVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] },
+    transition: { duration: 0.45, ease: [0.22, 1, 0.36, 1] },
   },
 };
 
@@ -127,7 +127,7 @@ export default function Services() {
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.18 }}
+        viewport={{ once: true, amount: 0.1 }}
       >
         <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
           <div className="max-w-3xl">

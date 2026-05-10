@@ -42,7 +42,7 @@ const fadeUpVariants = {
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.62, ease: [0.22, 1, 0.36, 1] },
+    transition: { duration: 0.62, ease: [0.45, 1, 0.36, 1] },
   },
 };
 
@@ -67,7 +67,7 @@ export default function Contact() {
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.24 }}
+        viewport={{ once: true, amount: 0.1 }}
       >
         <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-end">
           <div>
