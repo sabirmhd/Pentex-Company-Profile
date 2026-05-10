@@ -8,8 +8,8 @@ export default function AboutPage() {
     <PageLayout
       hero={
         <PageHero
-          title="About"
-          breadcrumb="Home - About"
+          title="About Us"
+          breadcrumb="Home - About Us"
           backgroundImage={aboutHeroImage}
         />
       }
