@@ -10,8 +10,8 @@ import {
 const contactItems = [
   {
     title: "Phone Number",
-    value: "+971561332311",
-    href: "tel:+971561332311",
+    value: "+966 500595123",
+    href: "tel:+966500595123",
     action: "Call Now",
     icon: HiOutlinePhone,
   },
@@ -24,7 +24,7 @@ const contactItems = [
   },
   {
     title: "Address",
-    value: "Leased Office Bldg Office No., Hamriyah Free Zone, Sharjah - UAE",
+    value: "Building No. 6821, King Faisal Ibn Abdulaziz Branch, Postal - 35514, Al jubail, Saudi Arabia",
     icon: HiOutlineMapPin,
   },
 ];

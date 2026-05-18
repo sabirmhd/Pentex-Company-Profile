@@ -29,12 +29,12 @@ const services = [
 const contactDetails = [
   {
     icon: FaMapMarkerAlt,
-    text: "Hamriyah Free Zone Sharjah - UAE",
+    text: "Building No. 6821, King Faisal Ibn Abdulaziz Branch, Postal - 35514, Al Jubail, Saudi Arabia",
   },
   {
     icon: FaPhoneAlt,
-    text: "+971 56 133 2311",
-    href: "tel:+971561332311",
+    text: "+966 500595123",
+    href: "tel:+966500595123",
   },
   {
     icon: FaEnvelope,

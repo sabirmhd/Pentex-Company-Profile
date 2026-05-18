@@ -7,20 +7,20 @@ import {
 
 const branches = [
   {
+    country: "Saudi Arabia",
+    name: "PENTEX INDUSTRIAL SOLUTIONS INC.",
+    address: "Building No. 6821, King Faisal Ibn Abdulaziz Branch, Postal - 35514, Al jubail, Saudi Arabia",
+  },
+  {
     country: "United Kingdom",
-    name: "PENTEX INTEGRATED INDUSTRIAL SOLUTIONS LTD.",
-    address: "61 Bridge Street, Kington, United Kingdom",
+    name: "PENTEX INDUSTRIAL SOLUTIONS LTD.",
+    address: "Coming Soon - Our UK branch will be operational by the end of 2026",
   },
   {
     country: "India",
     name: "Pentex LLP (Eplus Education)",
     address:
-      "Building No. 325 Thekkil, Chanappara P.O., Kadakkal, Kollam District, Kerala - 691536, India",
-  },
-  {
-    country: "Saudi Arabia",
-    name: "PENTEX INDUSTRIAL SOLUTIONS INC.",
-    address: "61 Bridge Street, Kington, United Kingdom",
+      "Coming Soon - Our India branch will be operational by the end of 2026",
   },
 ];
 
